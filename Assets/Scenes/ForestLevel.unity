@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -108,7 +108,7 @@ NavMeshSettings:
     agentTypeID: 0
     agentRadius: 0.5
     agentHeight: 2
-    agentSlope: 45
+    agentSlope: 35
     agentClimb: 0.4
     ledgeDropHeight: 0
     maxJumpAcrossDistance: 0
@@ -443,7 +443,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &160842462
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -926,7 +926,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 8
+  m_StaticEditorFlags: 0
   m_IsActive: 0
 --- !u!65 &318376467
 BoxCollider:
@@ -1382,7 +1382,7 @@ Transform:
   m_GameObject: {fileID: 439091323}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0.3, z: 16.1}
-  m_LocalScale: {x: 120, y: 1, z: 50}
+  m_LocalScale: {x: 240, y: 1, z: 70}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 12
@@ -2281,7 +2281,7 @@ Terrain:
   m_DrawInstanced: 1
   m_DrawTreesAndFoliage: 1
   m_ReflectionProbeUsage: 1
-  m_MaterialTemplate: {fileID: 10652, guid: 0000000000000000f000000000000000, type: 0}
+  m_MaterialTemplate: {fileID: 2100000, guid: a5bb89e3ff5fadd42aeabccb817c9274, type: 2}
   m_BakeLightProbesForTrees: 1
   m_PreserveTreePrototypeLayers: 0
   m_DeringLightProbesForTrees: 1
@@ -3271,11 +3271,11 @@ GameObject:
   - component: {fileID: 1503169023}
   m_Layer: 0
   m_Name: Burrow
-  m_TagString: Untagged
+  m_TagString: Exit
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!65 &1503169023
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3344,7 +3344,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1503169022}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 46.4, y: 5.3, z: 60.2}
+  m_LocalPosition: {x: 27.6, y: 5.3, z: 108.4}
   m_LocalScale: {x: 10, y: 10, z: 20}
   m_Children: []
   m_Father: {fileID: 0}
@@ -4288,72 +4288,3 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 180205929}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &953408412213060380
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 3873505611084829995, guid: 98e2cda9a64d02b4b876a1cd18799023,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -17.72
-      objectReference: {fileID: 0}
-    - target: {fileID: 3873505611084829995, guid: 98e2cda9a64d02b4b876a1cd18799023,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3873505611084829995, guid: 98e2cda9a64d02b4b876a1cd18799023,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3873505611084829995, guid: 98e2cda9a64d02b4b876a1cd18799023,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3873505611084829995, guid: 98e2cda9a64d02b4b876a1cd18799023,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3873505611084829995, guid: 98e2cda9a64d02b4b876a1cd18799023,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3873505611084829995, guid: 98e2cda9a64d02b4b876a1cd18799023,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3873505611084829995, guid: 98e2cda9a64d02b4b876a1cd18799023,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 17
-      objectReference: {fileID: 0}
-    - target: {fileID: 3873505611084829995, guid: 98e2cda9a64d02b4b876a1cd18799023,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3873505611084829995, guid: 98e2cda9a64d02b4b876a1cd18799023,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3873505611084829995, guid: 98e2cda9a64d02b4b876a1cd18799023,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8628121836621700193, guid: 98e2cda9a64d02b4b876a1cd18799023,
-        type: 3}
-      propertyPath: m_Name
-      value: PineTree
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 98e2cda9a64d02b4b876a1cd18799023, type: 3}

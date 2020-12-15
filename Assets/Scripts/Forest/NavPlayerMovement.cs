@@ -42,6 +42,9 @@ public class NavPlayerMovement : MonoBehaviour
 
         // Rotate around our y-axis
         transform.Rotate(0, rotation, 0);
+
+        Vector3 move = transform.forward * translation * speed;
+        move.y = rgBody.velocity.y;
     }
 
     private void OnCollisionEnter(Collision collision)
